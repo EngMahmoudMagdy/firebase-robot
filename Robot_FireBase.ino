@@ -5,9 +5,7 @@
 #define FIREBASE_HOST "iffr-cf346.firebaseio.com" // firebase link
 #define FIREBASE_AUTH "" // firebase password or secret
 #define WIFI_SSID "LINKDSL-Salah" // wifi name
-//#define WIFI_SSID "Aya" // wifi name
-#define WIFI_PASSWORD "M@7m0udM@9dy" // password
-//#define WIFI_PASSWORD "123456789adm" // password
+#define WIFI_PASSWORD "" // password
 //, down , right , left , stopped ;
 int data = 0; 
 //////////////////////////  Motor 1 : 
