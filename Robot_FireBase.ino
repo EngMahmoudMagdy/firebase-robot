@@ -3,7 +3,7 @@
 
 // Set these to run example.
 #define FIREBASE_HOST "iffr-cf346.firebaseio.com" // firebase link
-#define FIREBASE_AUTH "d9l8GP2AhJK68QDSoTwb8WrfRB2EbXHJD3iUSsUX" // firebase password or secret
+#define FIREBASE_AUTH "" // firebase password or secret
 #define WIFI_SSID "LINKDSL-Salah" // wifi name
 //#define WIFI_SSID "Aya" // wifi name
 #define WIFI_PASSWORD "M@7m0udM@9dy" // password
