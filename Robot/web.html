@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Firebase Robot</title>
+<link rel='stylesheet' href='styles.css'/>
+<script type ="text/javascript" src= "jquery-2.0.3.min.js">
+</script>
+<script type ="text/javascript" src= "query.js">
+</script>
+</head>
+<body >
+
+	<div id="container">
+	
+		<div id ="ud">
+			<button class="btn" id ="up" onclick="up()" onmouseout="stopped()">
+				Up
+			</button>
+		</div>  
+		
+		<div id="rt">
+			<button class="btn"  id ="right"  onclick="right()" onmouseout="stopped()">
+				Right
+			</button>
+		</div>
+	
+		<div id = "lf">
+			<button class="btn" id ="left"  onclick="left()" onmouseout="stopped()">
+				Left
+			</button>
+		</div>
+
+		<div id="ud">
+			<button class="btn" id ="down"  onclick="down()"  onmouseout="stopped()">
+				Down
+			</button>
+		</div>
+
+	</div>
+
+<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDVlki7GUt7TBIoZ10RLcuz7REYqLSrrv0",
+    authDomain: "iffr-cf346.firebaseapp.com",
+    databaseURL: "https://iffr-cf346.firebaseio.com",
+    projectId: "iffr-cf346",
+    storageBucket: "iffr-cf346.appspot.com",
+    messagingSenderId: "794604607256"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<script src= "fireconnect.js">
+</script>
+
+</body>
+</html>

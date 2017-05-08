@@ -1,0 +1,60 @@
+.btn
+{background : #fff;
+  color:#000;
+  padding :12px 25px;
+  margin-bottom:20px;}
+#container {
+	width: 200px;
+	float: center;
+	background:#fff;
+	text-align:center;
+	margin-left:500px;
+	margin-top:250px;
+	padding: 40px;40px;40px;40px;
+
+}
+
+
+#lf {
+  float: left;
+
+}
+
+#rt{
+  float: right;
+
+}
+#ud
+{
+float: center;margin:auto;
+
+}
+body
+{
+background:#000;
+
+}
+fieldset
+{
+background:#fff;
+width:1000px;
+    border-radius: 5px;
+	padding:50px;
+	margin:25px;
+}
+.textinput
+{
+font-size:25px;
+}
+.btn:hover {
+	background: #117bff;
+	cursor: pointer; 
+	transition: background .5s;  
+}
+
+legend {
+    padding: 10px;
+    background: #117bff;
+	color:#fff;
+    border-radius: 10px;
+}
